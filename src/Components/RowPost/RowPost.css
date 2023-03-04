@@ -13,14 +13,13 @@
 }
 .poster {
   cursor: pointer;
-
-  max-height: 300px;
+  max-height: 340px;
   margin-right: 12px;
 }
 .smallPoster {
   cursor: pointer;
-  max-height: 230px;
-  width: 170px;
+  max-height: 250px;
+  width: 180px;
   margin-right: 13px;
 }
 h2 {

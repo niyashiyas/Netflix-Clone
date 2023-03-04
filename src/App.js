@@ -27,6 +27,9 @@ function App() {
       <RowPost url={horror} title="Horror Movies" isSmall />
       <RowPost url={romance} title="Romance Movies" isSmall />
       <RowPost url={documentaries} title="Documentaries" isSmall />
+      {/* <footer>
+        <p>Copyright © 2023 | Made with <span>❤</span> by Niya</p>
+      </footer> */}
     </div>
   );
 }
