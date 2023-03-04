@@ -12,14 +12,23 @@
   display: none;
 }
 .poster {
-  max-height: 250px;
-  margin-right: 10px;
+  cursor: pointer;
+
+  max-height: 300px;
+  margin-right: 12px;
 }
 .smallPoster {
-  max-height: 150px;
-  margin-right: 10px;
+  cursor: pointer;
+  max-height: 230px;
+  width: 170px;
+  margin-right: 13px;
 }
 h2 {
   padding-top: 10px;
   color: #fff;
+}
+.poster:hover,
+.smallPoster:hover {
+  transform: scale(1.07);
+  border-radius: 3px;
 }

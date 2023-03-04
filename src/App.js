@@ -9,6 +9,7 @@ import {
   romance,
   documentaries,
   trending,
+  topRated,
 } from "./urls";
 import Banner from "./Components/Banner/Banner.js";
 import RowPost from "./Components/RowPost/RowPost.js";
@@ -20,10 +21,11 @@ function App() {
       <Banner />
       <RowPost url={originals} title="NETFLIX ORIGINALS" />
       <RowPost url={trending} title="Trending Now" isSmall />
-      <RowPost url={action} title="Action" isSmall />
-      <RowPost url={comedy} title="Comedy" isSmall />
-      <RowPost url={horror} title="Horror" isSmall />
-      <RowPost url={romance} title="Romance" isSmall />
+      <RowPost url={topRated} title="Top Rated" isSmall />
+      <RowPost url={action} title="Action Movies" isSmall />
+      <RowPost url={comedy} title="Comedy Movies" isSmall />
+      <RowPost url={horror} title="Horror Movies" isSmall />
+      <RowPost url={romance} title="Romance Movies" isSmall />
       <RowPost url={documentaries} title="Documentaries" isSmall />
     </div>
   );

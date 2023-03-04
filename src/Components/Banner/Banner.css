@@ -2,19 +2,22 @@
   background-size: cover;
   height: 473px;
   color: white;
+  overflow-wrap: normal;
 }
 .content {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding-top: 110px;
   height: 190px;
   padding-left: 30px;
-  /* padding: 100px 0px 30px 100px; */
 }
 .title {
   font-size: 3rem;
   font-weight: 800;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.35rem;
 }
 .button {
+  padding-bottom: 5px;
+
   outline: none;
   border: none;
   font-weight: 700;

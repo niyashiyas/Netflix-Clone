@@ -9,7 +9,8 @@ function Banner() {
     axios
       .get(`trending/all/week?api_key=${API_KEY}&language=en-US`)
       .then((response) => {
-        setMovie(response.data.results[0]);
+        console.log(response.data.results);
+        setMovie(response.data.results[17]);
       });
   }, []);
   return (
@@ -20,7 +21,7 @@ function Banner() {
       className="banner"
     >
       <div className="content">
-        <h1 className="title">{movie ? movie.name : ""}</h1>
+        <h1 className="title">{movie ? movie.title || movie.name : ""}</h1>
         <div className="banner_buttons">
           <button className="button">Play</button>
           <button className="button">My List</button>
