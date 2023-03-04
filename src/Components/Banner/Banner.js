@@ -10,7 +10,7 @@ function Banner() {
       .get(`trending/all/week?api_key=${API_KEY}&language=en-US`)
       .then((response) => {
         console.log(response.data.results);
-        setMovie(response.data.results[8]);
+        setMovie(response.data.results[17]);
       });
   }, []);
   return (
