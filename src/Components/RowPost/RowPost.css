@@ -29,6 +29,6 @@ h2 {
 }
 .poster:hover,
 .smallPoster:hover {
-  transform: scale(1.07);
+  transform: scale(1.09);
   border-radius: 3px;
 }

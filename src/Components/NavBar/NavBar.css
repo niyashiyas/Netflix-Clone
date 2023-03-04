@@ -11,10 +11,12 @@
   position: fixed;
   left: 25px;
   width: 80px;
+  top: 20px;
 }
 .avatar {
   position: fixed;
   right: 25px;
   width: 30px;
   border-radius: 5px;
+  top: 20px;
 }

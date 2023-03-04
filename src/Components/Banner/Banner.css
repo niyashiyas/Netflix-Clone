@@ -17,7 +17,6 @@
 }
 .button {
   padding-bottom: 5px;
-
   outline: none;
   border: none;
   font-weight: 700;
@@ -39,6 +38,7 @@
   font-size: 1rem;
   height: 80px;
   max-width: 360px;
+  max-height: 100px;
 }
 .fade_buttom {
   height: 11rem;
