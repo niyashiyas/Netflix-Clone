@@ -5,11 +5,9 @@ import "./Banner.css";
 function Banner() {
   const [movie, setMovie] = useState();
   useEffect(() => {
-    console.log("hi");
     axios
       .get(`trending/all/week?api_key=${API_KEY}&language=en-US`)
       .then((response) => {
-        console.log(response.data.results);
         setMovie(response.data.results[17]);
       });
   }, []);
